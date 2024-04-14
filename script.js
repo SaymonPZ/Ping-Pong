@@ -41,7 +41,7 @@ const canvasEl = document.querySelector("canvas");
             x: window.innerWidth - centerLine.w - gapX,
             y: 0, // inicio posição y
             h: 200, // atLineura
-            speed: 3,
+            speed: 2,
             color: "white",
             draw: function(){
                 ctx.fillStyle = this.color;
