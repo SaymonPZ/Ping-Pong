@@ -57,7 +57,7 @@ const canvasEl = document.querySelector("canvas");
                 }
             },
             _speedUp: function(){
-                if(this.speed < 10){
+                if(this.speed < 8){
                     this.speed += 1;
                 } else{
                     this.color = "#CE0058";
